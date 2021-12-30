@@ -1,0 +1,48 @@
+.box {
+    width: 800px !important;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%); 
+}
+
+.operations {
+    background-color: #deefef !important;
+}
+
+.line div {
+    background-color: #F5F5F5; 
+    color: black;
+    padding: 16px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 0.1px solid #D3D3D3; 
+    transition: all 0.1s;
+    cursor: pointer;
+    outline: none;
+}
+
+.line div:hover {
+    background-color: #C0C0C0;
+}
+
+.ac {
+    background-color: #90EE90 !important;
+}
+
+.igual {
+    color: #D2122E !important;
+}
+
+input {
+    width: 75%;
+    height: 60px;
+    border: 0.5px solid #D3D3D3;
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+button {
+    border: 0.1px solid #D3D3D3; 
+}
